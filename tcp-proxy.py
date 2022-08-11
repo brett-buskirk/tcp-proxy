@@ -34,3 +34,11 @@ def receieve_from(connection):
     except Exception as e:
         pass
     return buffer
+
+def request_handler(buffer):
+    # Perform packet modifications
+    return buffer
+
+def response_handler(buffer):
+    # Perform packet modifications
+    return buffer
